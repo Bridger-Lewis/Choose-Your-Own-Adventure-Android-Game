@@ -1,0 +1,60 @@
+title: Start
+tags:
+colorID: 0
+position: 543,260
+---
+The hard slap of concrete turns to the soft crunching of leaves beneath your feet as you become aware of your surroundings again. You were just walking through the middle of a city, so how did you manage to wind up in a forest? You guess that's what you get for walking on autopilot.
+[[Stay there|Stay]]
+[[Explore|Explore]]
+===
+title: Stay
+tags:
+colorID: 0
+position: 359,512
+---
+You wait where you are for someone to find you until nightfall. Without the sun it feels just chilly enough to be uncomfortable and deny you sleep. You notice glowing eyes staring at you from between the trees. How long have they been there? You haven't heard a sound.
+[[Keep waiting|waitMore]]
+[[Run|run]]
+===
+title: Explore
+tags:
+colorID: 0
+position: 717,523
+---
+You walk around for a while and find a small clearing. It seems odd. It's more... alive than the rest of the forest you've seen. The greens are greener, the plants are more lush, and a perfect ring of toadstools lays in the middle of it.
+[[Take a closer look|lookAtClearing]]
+[[Something is wrong, avoid it|avoidClearing]]
+===
+title: waitMore
+tags:
+colorID: 0
+position: 102,474
+---
+You hear leaves crunch beside you and start to look as sharp teeth rip into your neck.
+[[Restart|Start]]
+===
+title: run
+tags:
+colorID: 0
+position: 222,241
+---
+You don't like your chances staying here. You bolt upright and take off at top speed into the forest... at night...
+You run headlong into a tree and break your neck.
+[[Restart|Start]]
+===
+title: lookAtClearing
+tags:
+colorID: 0
+position: 980,459
+---
+You walk closer and observe the ring of toadstools. As you cross its boundary the natural forest fades away into a dense mist and a fantastic forest appears out of it. Soaring hardwoods with leaves of perpetual red and gold laden with hanging bridges and houses. Small orchards of every type of fruit that never grows overripe. Odd creatures of every shape and size with large twisted smiles on their faces showing off their too many, too sharp teeth. They invite you into their land and you accept. You don't quite remember where you came from or how you got here, but you're glad you're here now. It's where you belong after all. You are the guest of honor. It's been so long since they've had a dinner guest.
+[[You... Win?|Start]]
+===
+title: avoidClearing
+tags:
+colorID: 0
+position: 883,234
+---
+You don't like this. It seems unnatural and dangerous. Because of this you decide to avoid it like the plague. You wander back off into the forest and continue to wander the wooded expanse for the rest of your days.
+[[Restart|Start]]
+===
