@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setup();
     }
 
+    String STORY = "testStory.txt";
+
     TextView textView;
     Button button1, button2, button3, button4;
     BufferedReader reader;
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         button4 = findViewById(R.id.button4);
 
         try {
-            reader = new BufferedReader(new InputStreamReader(getAssets().open("testStory.txt")));
+            reader = new BufferedReader(new InputStreamReader(getAssets().open(STORY)));
             while ((line = reader.readLine()) != null) {
                 if (line.contains("---")) {
                     break;
@@ -114,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
     /** Sets up text window, buttons, and changes layout as needed */
     public void parse (String choice) {
         try {
-            reader = new BufferedReader(new InputStreamReader(getAssets().open("testStory.txt")));
+            reader = new BufferedReader(new InputStreamReader(getAssets().open(STORY)));
 
             /** Read through file looking for passed string */
             while ((line = reader.readLine()) != null) {
